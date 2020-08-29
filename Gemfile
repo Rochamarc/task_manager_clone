@@ -12,6 +12,8 @@ end
 gem 'rails', '5.0.7'
 # Use Puma as the app server
 gem 'puma', '3.10.0'
+gem 'pg', '1.2.3'
+
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 # gem 'jbuilder', '~> 2.5'
 # Use Redis adapter to run Action Cable in production
@@ -44,13 +46,8 @@ group :development do
   gem 'spring', '2.0.1'
   gem 'spring-watcher-listen', '2.0.1'
   gem 'spring-commands-rspec', '1.0.4'
-  # Use mysql as the database for Active Record
-  gem 'mysql2', '0.4.5'
 end
 
-group :production do
-  gem 'pg'
-end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]

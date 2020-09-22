@@ -37,7 +37,7 @@ group :test do
   gem 'database_cleaner', '1.5.3'
   gem 'shoulda-matchers', '3.1.1'
   gem 'factory_girl_rails', '4.8.0'
-  gem 'faker', '1.7.3'
+  # gem 'faker', '1.7.3'
 end
 
 group :development do
@@ -63,3 +63,5 @@ gem 'omniauth', '1.6.1'
 gem 'devise_token_auth', '0.1.42'
 
 gem 'rails-i18n', '5.0.4'
+
+gem 'faker'
